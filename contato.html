@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Pizzaria Queijuda</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen"/>
+    <style type="text/css">
+      
+      .fonteLetras {
+        font-family: "Lucida Console", Courier, monospace;
+      }
+    </style>
+    <!--Eu não consegui colocar como Lucida Console-->
+</head>
+<body>
+    <div class="container">
+        <div class="page">  
+            <!-- Navigation -->
+            <div class="row">
+              <div class="col-md-2">
+                <a href="index.html"><img class="imagens" src="images/queijuda_resize.png" alt="icone" ></a>
+              </div>
+              <div class="col-md-4"></div>
+              <div class="col-md-6">
+                <nav class="navbar navbar-expand-lg">
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      |
+                      <a class="nav-item nav-link" href="index.html">Pizzaria Queijuda</a> |
+                      <a class="nav-item nav-link" href="premios.html">Prêmios</a> |
+                      <a class="nav-item nav-link active" href="contato.html">Contato <span class="sr-only">(current)</span></a> |
+                      <a class="nav-item nav-link" href="chefs.html">Chefs</a> |
+                      <a class="nav-item nav-link" href="pedido.html">Faça seu pedido</a> |
+                    </div>
+                  </div>
+                </nav>
+              </div> 
+            </div>    
+          
+            <hr>
+              <div class="banner">
+                <center><img src="images/queijudabanner.png"/></center>
+              </div>
+    
+        <hr>
+        <!-- Contato, horario de atendimento, endereço, fale conosco, dados do cliente, -->
+        <div class="fonteLetras">
+          <h1 align="center"><b>Contato</b></h1>
+          <br>
+          <br>
+          <h3 align="center"><b>Terça a Quinta</b></h3>
+          <h3 align="center">12h às 20h</h3>
+          <br>
+          <br>
+          <h3 align="center"><b>Sexta</b></h3>
+          <h3 align="center">10h às 23h</h3>
+          <br>
+          <br>
+          <h3 align="center"><b>Endereço</b></h3>
+          <a href="https://www.google.com.br/maps/place/UniRedentor/@-21.193821,-41.9084647,17z/data=!4m12!1m6!3m5!1s0xbc6015fbfc23c7:0xcfc10aca2c3500cc!2sUniRedentor!8m2!3d-21.193826!4d-41.906276!3m4!1s0xbc6015fbfc23c7:0xcfc10aca2c3500cc!8m2!3d-21.193826!4d-41.906276" target="_blank" ><h3 align="center">Rua Jucelino Kibischeck, 420, Niterói, Itaperuna</h3></a>
+          <br>
+          <br>
+          <h3 align="center"><b>Fale conosco</b></h3>
+          <h3 align="center"><b>Dados do Cliente</b></h3>
+        </div>
+        
+        <hr>
+        <!-- precisa arrumar pra colocar lado a lado-->
+        <div>
+            <form>
+                <table align="center" border="0" width="80%">            
+                    <tr>
+                        <td width="20%">
+                                <label for="fname">Nome Completo:</label><br>
+                                    <input type="text" id="fname" name="fname"><br>
+                        </td>
+                        <td width="50%">
+                                <label for="email">Insira seu email:</label><br>
+                                    <input type="email" id="email" name="email"><br>
+                        </td>
+                        <br>
+                        <br>
+                        <td width="30%">
+                                <select>
+                                    <option value="rio de janeiro">RJ</option>
+                                    <option value="minas gerais">MG</option>
+                                    <option value="sao paulo">SP</option>
+                                    <option value="espirito santo">ES</option>
+                                </select>
+                        </td>
+                    </tr>
+                    <br>
+                    <br>
+                    <!-- pesquisa de satisfação-->
+                    <tr>
+                        <td>
+                            <div class="control">
+                                <label for="satisfeito">Satisfeito?:</label>
+                                <label>
+                                    <input type="radio" name="rating">
+                                        1
+                                </label>
+                                <label>
+                                    <input type="radio" name="rating" >
+                                        2
+                                </label>
+                                <label>
+                                    <input type="radio" name="rating" >
+                                        3
+                                </label>
+                                <label>
+                                    <input type="radio" name="rating" >
+                                        4
+                                </label>
+                                <label>
+                                    <input type="radio" name="rating">
+                                        5
+                                </label>
+                            </div>
+                        </td>
+                    </tr>
+                    <br>
+                    <br>
+                    <tr>
+                        <td>
+                            <p>Quais pizzas você mais gostou?:</p>
+
+                            <div>
+                                <input type="checkbox" id="pepperoni" name="pepperoni">
+                                <label for="pepperoni">pepperoni</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="barbecue" name="barbecue">
+                                <label for="barbecue">barbecue</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="multi" name="multi">
+                                <label for="multi">multi-queijos</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <br>
+                    <br>
+                    <tr>
+                        <td>
+                            <label for="story">Deixe um comentário sobre o que você gostou:</label>
+                            <textarea id="story" name="story" rows="4" cols="50"></textarea>
+                            <input type="submit">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <footer class="rodape page-footer font-small teal pt-4">
+
+            <!-- Footer Text -->
+            <div class="container-fluid text-center text-md-left">
+    
+              <!-- Grid row -->
+              <div class="row">
+    
+                <!-- Grid column -->
+                <div class="col-md-4 mt-md-0 mt-3">
+    
+                  <!-- Content -->
+                  <h5 class="text-uppercase font-weight-bold">Horários</h5>
+                  <p id="footer-p">Aberto de Terça a Domingos, das 19:30 às 00:30</p>
+    
+                </div>
+                <!-- Grid column -->
+    
+                <hr class="clearfix w-100 d-md-none pb-3">
+    
+                <!-- Grid column -->
+                <div class="col-md-4 mb-md-0 mb-3">
+    
+                  <!-- Content -->
+                  <h5 class="text-uppercase font-weight-bold">Local</h5>
+                  <p id="footer-p">Rua Jucelino Kibischeck, 420, Niterói, Itaperuna</p>
+    
+                </div>
+                <!-- Grid column -->
+                <div class="col-md-4 mt-md-0 mt-3">
+    
+                  <!-- Content -->
+                  <h5 class="text-uppercase font-weight-bold">Contato</h5>
+                  <p id="footer-p">Telefone: (22) 99969-4203</p>
+    
+                </div>
+    
+              </div>
+              <!-- Grid row -->
+    
+            </div>
+            <!-- Footer Text -->
+    
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+              <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+    
+          </footer>
+          <!-- Footer -->
+        </div>
+    </div>
+</body>
+</html>

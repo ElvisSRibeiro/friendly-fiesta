@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pizzaria Queijuda</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen"/>
+    <script src='main.js'></script>
+    <style type="text/css">
+      .clear {
+        clear: both;
+      }
+      
+      .imagensPedidos {
+        width: 100%;
+      }
+
+      .imagemPedidoPage {
+        
+
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <a href="index.html"><img class="imagemPedidoPage" src="images/pizza_icon.png" alt="icone" ></a>
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-6">
+          <nav class="navbar navbar-expand-lg">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                |
+                <a class="nav-item nav-link" href="index.html">Pizzaria Queijuda <span class="sr-only">(current)</span></a> |
+                <a class="nav-item nav-link" href="premios.html">Prêmios</a> |
+                <a class="nav-item nav-link" href="contato.html">Contato</a> |
+                <a class="nav-item nav-link" href="chefs.html">Chefs</a> |
+                <a class="nav-item nav-link  active" href="pedido.html">Faça seu pedido</a> |
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="page">  
+            <hr>
+            <div class="banner">
+              <center><img src="images/queijudabanner.png"/></center>
+            </div>
+
+          <form>
+
+            <div class="row">
+              <div class="row pedido col-md-6"> 
+                <div class="col-md-4">
+                  <h1>Barbecue</h1>
+                  <p><img class="imagensPedidos" src="images/barbecue.jpg"></p>
+                </div>
+                <div class="col-md-2">
+                  <form>
+                    <label for="cars">Tamanho:</label>
+                    <select id="tamanho" name="tamanho">
+                      <option value="pequena">Pequena</option>
+                      <option value="media">Média</option>
+                      <option value="grande">Grande</option>
+                      <option value="xgrande">Extra-grande</option>
+                    </select>
+
+                    <label for="quantity">Quantidade:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="5">
+                    
+                    <input type="submit" value="Adicionar do carrinho">
+                  </form>
+                </div>
+              </div>
+
+              <div class="row pedido col-md-6"> 
+                <div class="col-md-4">
+                  <h1>Italiana</h1>
+                  <p><img class="imagens" src="images/italiana.jpg"></p>
+                </div>
+                <div class="col-md-2">
+                  <form>
+                    <label for="cars">Tamanho:</label>
+                    <select id="tamanho" name="tamanho">
+                      <option value="pequena">Pequena</option>
+                      <option value="media">Média</option>
+                      <option value="grande">Grande</option>
+                      <option value="xgrande">Extra-grande</option>
+                    </select>
+
+                    <label for="quantity">Quantidade:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="5">
+                    
+                      <input type="submit" value="Adicionar do carrinho">
+                  </form>
+                </div>
+            </div> 
+
+
+            </div>
+
+            <br>
+
+            <div class="row">
+              <div class="row pedido col-md-6"> 
+                <div class="col-md-4">
+                  <h1>Pepperoni</h1>
+                  <p><img class="imagensPedidos" src="images/pepperoni.jpg"></p>
+                </div>
+                <div class="col-md-2">
+                  <form>
+                    <label for="cars">Tamanho:</label>
+                    <select id="tamanho" name="tamanho">
+                      <option value="pequena">Pequena</option>
+                      <option value="media">Média</option>
+                      <option value="grande">Grande</option>
+                      <option value="xgrande">Extra-grande</option>
+                    </select>
+
+                    <label for="quantity">Quantidade:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="5">
+                    
+                    <input type="submit" value="Adicionar do carrinho">
+                  </form>
+                </div>
+              </div>
+
+              <div class="row pedido col-md-6"> 
+                <div class="col-md-4">
+                  <h1>Multi-Queijos</h1>
+                  <p><img class="imagens" src="images/queijo.jpg"></p>
+                </div>
+                <div class="col-md-2">
+                  <form>
+                    <label for="cars">Tamanho:</label>
+                    <select id="tamanho" name="tamanho">
+                      <option value="pequena">Pequena</option>
+                      <option value="media">Média</option>
+                      <option value="grande">Grande</option>
+                      <option value="xgrande">Extra-grande</option>
+                    </select>
+
+                    <label for="quantity">Quantidade:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="5">
+                    
+                      <input type="submit" value="Adicionar do carrinho">
+                  </form>
+                </div>
+              </div> 
+            </div>
+
+            <br>
+
+            <div class="row">
+              <div class="row pedido col-md-6"> 
+                <div class="col-md-4">
+                  <h1>Estilo Ciciliano</h1>
+                  <p><img class="imagensPedidos" src="images/ciciliana.png"></p>
+                </div>
+                <div class="col-md-2">
+                  <form>
+                    <label for="cars">Tamanho:</label>
+                    <select id="tamanho" name="tamanho">
+                      <option value="pequena">Pequena</option>
+                      <option value="media">Média</option>
+                      <option value="grande">Grande</option>
+                      <option value="xgrande">Extra-grande</option>
+                    </select>
+
+                    <label for="quantity">Quantidade:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="5">
+                    
+                    <input type="submit" value="Adicionar do carrinho">
+                  </form>
+                </div>
+              </div>
+
+              <div class="row pedido col-md-6"> 
+                <div class="col-md-4">
+                  <h1>Pimenta California</h1>
+                  <p><img class="imagens" src="images/pimentacalifornia.png"></p>
+                </div>
+                <div class="col-md-2">
+                  <form>
+                    <label for="cars">Tamanho:</label>
+                    <select id="tamanho" name="tamanho">
+                      <option value="pequena">Pequena</option>
+                      <option value="media">Média</option>
+                      <option value="grande">Grande</option>
+                      <option value="xgrande">Extra-grande</option>
+                    </select>
+
+                    <label for="quantity">Quantidade:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="5">
+                    
+                      <input type="submit" value="Adicionar do carrinho">
+                  </form>
+                </div>
+            </div> 
+
+            
+            </div>
+
+            <br>
+
+            <div class="row">
+              <div class="row pedido col-md-6"> 
+                <div class="col-md-4">
+                  <h1>Pizza Torta</h1>
+                  <p><img class="imagensPedidos" src="images/pizza_torta.jpg"></p>
+                </div>
+                <div class="col-md-2">
+                  <form>
+                    <label for="cars">Tamanho:</label>
+                    <select id="tamanho" name="tamanho">
+                      <option value="pequena">Pequena</option>
+                      <option value="media">Média</option>
+                      <option value="grande">Grande</option>
+                      <option value="xgrande">Extra-grande</option>
+                    </select>
+
+                    <label for="quantity">Quantidade:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="5">
+                    
+                    <input type="submit" value="Adicionar do carrinho">
+                  </form>
+                </div>
+              </div>
+
+              <div class="row pedido col-md-6"> 
+              </div> 
+            </div>
+
+            <br>
+
+            <div class="row">
+              <div class="row pedido col-md-6"> 
+                <div class="col-md-4">
+                  <h1>Bebidas</h1>
+                  <p><img class="imagensPedidos" src="images/bebidas.jpg"></p>
+                </div>
+                <div class="col-md-2">
+                  <form>
+                    <label for="cars">Tamanho:</label>
+                    <select id="tamanho" name="tamanho">
+                      <option value="pequena">600ml</option>
+                      <option value="media">1L</option>
+                      <option value="grande">1,5L</option>
+                      <option value="xgrande">2L</option>
+                    </select>
+
+                    <label for="quantity">Quantidade:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="5">
+                    
+                    <input type="submit" value="Adicionar do carrinho">
+                  </form>
+                </div>
+              </div>
+
+              <div class="row pedido col-md-6"> 
+                <div class="col-md-4">
+                  <h1>Sobremesas</h1>
+                  <p><img class="imagens" src="images/sobremesa.png"></p>
+                </div>
+                <div class="col-md-2">
+                  <form>
+                    <label for="cars">Sobremesa:</label>
+                    <select id="tamanho" name="tamanho">
+                      <option value="pequena">Pudim</option>
+                      <option value="media">Porção de Brigadeiro</option>
+                      <option value="grande">Paçoquinha</option>
+                      <option value="xgrande">Salada de fruta no copo</option>
+                    </select>
+
+                    <label for="quantity">Quantidade:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="5">
+                    
+                      <input type="submit" value="Adicionar do carrinho">
+                  </form>
+                </div>
+              </div> 
+            </div>
+
+            <div>
+              <input type="submit" value="Confirmar Pedido">
+            </div>
+          </form>
+          </div>
+
+            
+            <hr>
+            <!-- Footer -->
+            <footer class="rodape page-footer font-small teal pt-4">
+
+                <!-- Footer Text -->
+                <div class="container-fluid text-center text-md-left">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 mt-md-0 mt-3">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase font-weight-bold">Horários</h5>
+                    <p id="footer-p">Aberto de Terça a Domingos, das 19:30 às 00:30</p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none pb-3">
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 mb-md-0 mb-3">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase font-weight-bold">Local</h5>
+                    <p id="footer-p">Rua Jucelino Kibischeck, 420, Niterói, Itaperuna</p>
+
+                    </div>
+                    <!-- Grid column -->
+                    <div class="col-md-4 mt-md-0 mt-3">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase font-weight-bold">Contato</h5>
+                    <p id="footer-p">Telefone: (22) 99969-4203</p>
+
+                    </div>
+
+                </div>
+                <!-- Grid row -->
+
+                </div>
+                <!-- Footer Text -->
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+                </div>
+                <!-- Copyright -->
+
+            </footer>
+            <!-- Footer -->
+      </div>
+    </div>
+</body>
+</html>
